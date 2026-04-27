@@ -5,6 +5,7 @@ import Footer from '@/src/components/layout/Footer';
 import Home from '@/src/pages/Home';
 import Gallery from '@/src/pages/Gallery';
 import About from '@/src/pages/About';
+import ChatBot from '@/src/components/ui/ChatBot';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           </Routes>
         </main>
         <Footer />
+        <ChatBot />
       </div>
     </Router>
   );
